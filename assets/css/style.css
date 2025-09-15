@@ -22,6 +22,7 @@
   .container-sm {
     background-color: pink;
     height: 100%;
+    
   }
 
 
@@ -69,6 +70,11 @@
 {
   width: 65%;
   margin: auto;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
 }
 
 button{
@@ -87,8 +93,6 @@ img {
 .d-flex
 {
   display: flex;
-  justify-content: center;
-  
 
 }
 
@@ -103,12 +107,23 @@ img {
   list-style: none;
 }
 
+.align-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+
+}
+
 
 /* Header */
 
 header
 {
   padding: 0.5rem 0;
+  background-color: #3161e0;
 }
 
 /* Main */
@@ -128,3 +143,18 @@ section {
 
 /* Footer */
 
+footer {
+  background-color: #23272a;
+}
+
+.color-f-text {
+  color: white;
+}
+
+ul li:first-child{
+  color: #3161e0;
+}
+
+h4 {
+  color: #3161e0;
+}
