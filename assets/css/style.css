@@ -59,6 +59,12 @@
   box-sizing: border-box;
 }
 
+.jumbotron {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+}
+
 .container
 {
   width: 80%;
@@ -69,23 +75,33 @@
 .container-sm
 {
   width: 65%;
-  margin: auto;
-  background-image: url(../img/jumbo.png);
-  background-size: cover;
-  background-position: center;
+  margin: auto;  
   height: 400px;
 
 }
 
 button{
-  border-radius: 12px;
-  padding: 0.3rem;
+  border-radius: 1rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid;
+}
+
+.btn-black {
+  background-color: #23272a;
+  color: white;
+}
+
+.btn-blue {
+  background-color: #8ea1e1;
+  color: white;
 }
 
 img {
   width: 70%;
 
 }
+
+
 
 
 /* Utilities */
@@ -102,10 +118,17 @@ img {
 }
 
 
-.list-unstyled
-{
-  list-style: none;
+.list-unstyled{
+  list-style: none;  
+  margin: 0 2rem;
+
+  a {
+    text-decoration: none;
+    padding: 0 0.5rem;
+  }
 }
+
+
 
 .align-center{
   display: flex;
@@ -124,6 +147,7 @@ header
 {
   padding: 0.5rem 0;
   background-color: #3161e0;
+  
 }
 
 /* Main */
@@ -157,4 +181,9 @@ ul li:first-child{
 
 h4 {
   color: #3161e0;
+}
+
+footer img {
+  width: 150px; 
+  height: auto; 
 }
